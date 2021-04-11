@@ -1,7 +1,7 @@
 import React from 'react';
 import { ProjectListPage } from 'pages/project-list'
 import './App.css';
-import 'antd/dist/antd.css'
+// import 'antd/dist/antd.css'
 
 
 
