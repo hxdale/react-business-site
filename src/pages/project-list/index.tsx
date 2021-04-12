@@ -3,7 +3,7 @@
 import { ListPage } from './list';
 import { SearchPanel } from './search-panel';
 import { useSelector } from '../../redux/hooks'
-import { useDispatch } from 'react-redux'
+// import { useDispatch } from 'react-redux'
 
 // import { RootSate } from '../../redux/store'
 // import {
@@ -31,8 +31,8 @@ import { useDispatch } from 'react-redux'
 export const ProjectListPage: React.FC = () => {
 
   const language = useSelector(state => state.language);
-  const languageList = useSelector(state => state.languageList);
-  const dispatch = useDispatch();
+  // const languageList = useSelector(state => state.language);
+  // const dispatch = useDispatch();
   return (
     <div className="project-list-page">
       <p><span>语言: </span> <strong>{language}</strong></p>
