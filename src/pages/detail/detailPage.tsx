@@ -1,4 +1,5 @@
-import { RouteComponentProps, withRouter, useHistory } from "react-router-dom";
+// import { RouteComponentProps, withRouter, useHistory } from "react-router-dom";
+import { RouteComponentProps } from "react-router-dom";
 // withRouter跨组件传递路由信息
 
 interface MatchParams {
