@@ -12,11 +12,10 @@ export const HomePage = () => {
           </Col>
           <Col span={12}>
             <ProductCollection
-              title={<Typography.Title level={3} type="warning">爆款推荐</Typography.Title>} >
-              sideImage={'wwwwwwwww'}
-              products={[]}
-
-            </ProductCollection>
+              title={<Typography.Title level={3} type="warning">爆款推荐==</Typography.Title>}
+              sideImage={'https://www.baidu.com/img/PCfb_5bf082d29588c07f842ccde3f97243ea.png'}
+              products={[{ id: 1, name: 'apple', number: 100 }, { id: 2, name: 'orange', number: 50 }]}
+            />
           </Col>
         </Row>
       </div>

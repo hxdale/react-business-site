@@ -15,7 +15,7 @@ export const Header: React.FC = (props) => {
       <Layout.Header>
         <Typography.Title level={3}>React Bussiness</Typography.Title>
         <Input.Search placeholder="请输入搜索关键字" />
-        {/* <Link to={'detail/8462825'}>产品详情</Link> */}
+        <Link to={'detail/8462825'}>产品详情</Link>
         <Button.Group >
           <Button onClick={() => history.push('/signIn')}>登录</Button>
           <Button onClick={() => history.push('/register')}>注册</Button>
