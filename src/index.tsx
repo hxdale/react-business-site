@@ -5,6 +5,10 @@ import store from './redux/store'
 import App from './App';
 import 'antd/dist/antd.css';
 import './index.css';
+import axioa from 'axios';
+
+axioa.defaults.headers['x-icode'] = 'FB80558A73FA658E';
+
 
 ReactDOM.render(
   <React.StrictMode>

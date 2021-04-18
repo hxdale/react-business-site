@@ -7,6 +7,7 @@ import languageReducer from './language/languageReducer'
 import productsReducer from './products/productsReducer'
 import { productDetailSlice } from './productDetail/slice'
 import { productSearchSlice } from '../redux/productSearch/slice'
+import { userSlice } from './user/slice'
 
 import { combineReducers, configureStore, getDefaultMiddleware } from '@reduxjs/toolkit'
 
@@ -14,7 +15,8 @@ const rootReducer = combineReducers({
   language: languageReducer,
   products: productsReducer,
   productDetail: productDetailSlice.reducer,
-  productSearch: productSearchSlice.reducer
+  productSearch: productSearchSlice.reducer,
+  user: userSlice.reducer,
 })
 // const store = createStore(rootReducer, applyMiddleware(thunk, actionLog));
 const store = configureStore({

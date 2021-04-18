@@ -1,6 +1,6 @@
 
 import { Header, Footer } from '../../components'
-export const MainLayout: React.FC = ({ children }) => {
+export const UserLayout: React.FC = ({ children }) => {
 
   return (
     <>
